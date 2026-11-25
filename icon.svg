@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="212 150 600 600" width="512" height="512">
+<!-- The browser tab icon, cut from build/app-icon.svg by npm run icons. Do not edit by hand. -->
+<defs><clipPath id="icon_cut"><rect x="212" y="150" width="600" height="600" rx="120"/></clipPath></defs>
+<g clip-path="url(#icon_cut)"><defs>
+<linearGradient id="app-icon-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a110b"/><stop offset="0.22" stop-color="#9c2a14"/><stop offset="0.42" stop-color="#e8502a"/><stop offset="0.58" stop-color="#f4a050"/><stop offset="1" stop-color="#f4a050"/></linearGradient>
+<radialGradient id="app-icon-glow"><stop offset="0" stop-color="#fff3cf" stop-opacity="0.95"/><stop offset="0.55" stop-color="#ffb65a" stop-opacity="0.55"/><stop offset="1" stop-color="#ff7a2e" stop-opacity="0"/></radialGradient>
+<radialGradient id="app-icon-sun"><stop offset="0" stop-color="#fffdf0"/><stop offset="0.7" stop-color="#fff0c0"/><stop offset="1" stop-color="#ffd27a"/></radialGradient>
+<linearGradient id="app-icon-ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a1c10"/><stop offset="0.3" stop-color="#1c0c08"/><stop offset="1" stop-color="#1c0c08"/></linearGradient>
+<radialGradient id="app-icon-spill"><stop offset="0" stop-color="#ffa64e" stop-opacity="0.8"/><stop offset="0.5" stop-color="#e8502a" stop-opacity="0.3"/><stop offset="1" stop-color="#e8502a" stop-opacity="0"/></radialGradient>
+<linearGradient id="app-icon-lid" gradientUnits="userSpaceOnUse" x1="0" y1="300" x2="0" y2="640"><stop offset="0" stop-color="#170807"/><stop offset="0.4" stop-color="#2e100a"/><stop offset="1" stop-color="#a84018"/></linearGradient>
+<linearGradient id="app-icon-mouth" gradientUnits="userSpaceOnUse" x1="0" y1="636" x2="0" y2="730"><stop offset="0" stop-color="#8a3014"/><stop offset="0.5" stop-color="#ff9a3c"/><stop offset="1" stop-color="#ffe2a0"/></linearGradient>
+<linearGradient id="app-icon-column" gradientUnits="userSpaceOnUse" x1="0" y1="660" x2="0" y2="300"><stop offset="0" stop-color="#ffc066" stop-opacity="0.6"/><stop offset="0.5" stop-color="#ff9a48" stop-opacity="0.16"/><stop offset="1" stop-color="#ff9a48" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#app-icon-sky)"/>
+<circle cx="512" cy="408" r="400" fill="url(#app-icon-glow)"/>
+<circle cx="512" cy="408" r="236" fill="url(#app-icon-sun)"/>
+<path d="M0 568 C200 540 380 578 560 560 C760 540 900 566 1024 550 V1024 H0Z" fill="#6a2614"/>
+<path d="M0 622 C250 590 420 612 600 600 C800 588 920 612 1024 600 V1024 H0Z" fill="url(#app-icon-ground)"/>
+<ellipse cx="512" cy="740" rx="470" ry="120" fill="url(#app-icon-spill)"/>
+<!-- the collar -->
+<path d="M306 612 H718 L792 738 H232Z" fill="#4a2418"/>
+<path d="M232 738 H792 V774 Q512 790 232 774Z" fill="#160908"/>
+<path d="M350 636 H674 L724 730 H300Z" fill="url(#app-icon-mouth)"/>
+<!-- the lid, thrown open, its face lit from below -->
+<path d="M374 296 H650 L662 314 H362Z" fill="#3a120a"/>
+<path d="M362 314 H662 L696 640 H328Z" fill="url(#app-icon-lid)"/>
+<path d="M386 338 H638 L664 612 H360Z" fill="none" stroke="#120605" stroke-width="9" stroke-linejoin="round" opacity="0.8"/>
+<g fill="#120605"><circle cx="375" cy="326" r="6"/><circle cx="649" cy="326" r="6"/><circle cx="512" cy="326" r="6"/><circle cx="356" cy="470" r="6"/><circle cx="668" cy="470" r="6"/></g>
+<g transform="translate(0 24)" fill="none" stroke="#0e0504" stroke-width="15" opacity="0.6"><path d="M474 348 Q452 348 452 370 V410 Q452 432 474 432 M490 348 Q512 348 512 370 V410 Q512 432 490 432"/><path d="M536 352 H584 L552 434"/></g>
+<path d="M374 296 H650" stroke="#ffc880" stroke-width="7" stroke-linecap="round"/>
+<path d="M352 660 L340 290 H684 L672 660Z" fill="url(#app-icon-column)"/>
+<!-- someone climbing out, hands on the ladder rails -->
+<g fill="#120706" stroke="#120706" stroke-linecap="round">
+<path d="M426 730 V676 Q430 636 476 628 H548 Q594 636 598 676 V730Z" stroke="none"/>
+<path d="M464 572 Q464 522 512 522 Q560 522 560 572 Q560 600 546 612 V640 H478 V612 Q464 600 464 572Z" stroke="none"/>
+<path d="M444 664 L404 620 M580 664 L620 620" stroke-width="34"/>
+<circle cx="404" cy="616" r="22" stroke="none"/><circle cx="620" cy="616" r="22" stroke="none"/>
+<path d="M372 760 V590 Q372 552 390 552 Q408 552 408 590 M652 760 V590 Q652 552 634 552 Q616 552 616 590" fill="none" stroke-width="17"/>
+</g>
+<g fill="none" stroke="#ffd08a" stroke-width="7" stroke-linecap="round" opacity="0.85"><path d="M470 592 Q464 566 476 544 M554 592 Q560 566 548 544"/><path d="M362 606 V750 M662 606 V750"/></g>
+<path d="M302 730 H722" stroke="#ffcf6a" stroke-width="8" stroke-linecap="round"/>
+<path d="M234 738 H790" stroke="#c8602a" stroke-width="5" stroke-linecap="round" opacity="0.7"/></g>
+</svg>
